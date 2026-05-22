@@ -1,38 +1,37 @@
 body {
-    background-color:#121212;
-    color:#ffffff;
+    background-color: #121212;
+    color: #ffffff;
     font-family: 'Segoe UI', sans-serif;
     display: flex;
     justify-content: center;
     padding: 20px;
-
 }
 
 .container {
     width: 400px;
-    background-color:#1e1e1e;
+    background-color: #1e1e1e;
     padding: 20px;
     border-radius: 10px;
-    border: 1px solid#333;
+    border: 1px solid #333;
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 
 h1 {
-    color:#00ff88;
+    color: #00ff88;
     text-align: center;
 }
 
 h3 {
-    color:#00d4ff;
+    color: #00d4ff;
     border-bottom: 1px solid #333;
     padding-bottom: 5px;
 }
 
 .card {
-    background:#252525;
+    background: #252525;
     padding: 15px;
     border-radius: 5px;
-    border-left: 5px solid#00ff88;
+    border-left: 5px solid #00ff88;
 }
 
 button {
@@ -48,8 +47,9 @@ button {
 }
 
 button:hover {
-    background-color:#00cc6e;
+    background-color: #00cc6e;
 }
+
 ul {
     list-style: none;
     padding: 0;
