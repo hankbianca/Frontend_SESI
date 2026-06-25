@@ -1,0 +1,80 @@
+body{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.container{
+    width: 400px;
+    background-color: #030303;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1PX solid #000000;
+    box-shadow: 0 10px 70px rgb(255, 115, 0);
+}
+
+h1{
+    color: #ffaa00;
+    text-align: center;
+}
+
+h3{
+    color: #ffffff;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 5px;
+}
+
+.card {
+
+    padding: 15px;
+    border-radius: 5px;
+    padding: 15px;
+    border-left: 5px solid #000000;
+}
+
+button{
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #ff7700;
+    border: none;    
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: o.3s;
+    color: #ffffff;
+}
+
+button:hover{
+    background-color: #ff9a3b;
+    color: #ffffff;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+
+}
+
+li{
+    padding: 5px 0;
+    color: #ccc;
+}
+
+input, select{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ff7b00;
+    background-color: #000000;
+    color: white;
+    box-sizing: border-box;
+}
+hr{
+   border: 0;
+   border-top: lpx solid #000000;
+   margin: 20px 0; 
+}
